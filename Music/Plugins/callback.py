@@ -764,7 +764,7 @@ async def P_list(_,CallbackQuery):
                 ],
                 [
                     a3,
-                    InlineKeyboardButton(text="🗑 Close Menu", callback_data=f'close2')
+                    InlineKeyboardButton(text="🗑 Close", callback_data=f'close2')
                 ]    
             ]
         )

@@ -125,7 +125,7 @@ async def play(_, message: Message):
                 pass
             except Exception as e:
                 return await message.reply_text(f"__**Assistant Failed To Join**__\n\n**Reason**:{e}")               
-        return      
+              
     audio = (message.reply_to_message.audio or message.reply_to_message.voice) if message.reply_to_message else None
     url = get_url(message)
     await message.delete()
